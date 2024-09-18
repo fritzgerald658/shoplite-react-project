@@ -1,0 +1,47 @@
+:root {
+  --primary-font: "Outfit", sans-serif;
+  --accent: #ff6543;
+  --text-color: #272727;
+  --border-color: #e3e3e3;
+}
+.hero-container h1,
+p,
+button {
+  font-family: var(--primary-font);
+}
+
+.hero-container h1,
+p {
+  font-weight: 200;
+}
+
+.hero-container h1 {
+  font-size: 3.188rem;
+}
+
+.hero-container p {
+  font-size: 1.313rem;
+}
+
+.hero-container button {
+  color: white;
+  padding: 1.125rem 2.625rem;
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 200px;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+.hero-container {
+  height: 80vh;
+}
+.hero-image {
+  width: 95%;
+  height: auto;
+  z-index: 4;
+}
+.hero-image-bg {
+  width: 110%;
+  position: absolute;
+}

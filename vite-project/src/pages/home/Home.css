@@ -1,3 +1,10 @@
 .header-container {
   background-color: white;
+  position: sticky;
+  z-index: 12;
+}
+
+.hero-section {
+  background-color: #f8f8f8;
+  z-index: -3;
 }

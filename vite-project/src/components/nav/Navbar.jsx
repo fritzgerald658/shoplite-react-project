@@ -11,7 +11,7 @@ import "./nav.css";
 function NavBar() {
   return (
     <>
-      <div className="container mx-4 px-5 d-flex flex-row justify-content-between align-items-center">
+      <div className="container d-flex flex-row justify-content-between align-items-center ">
         <div className="logo d-flex align-items-center">
           <p className="m-0">
             SHOP <span>LITE</span>
