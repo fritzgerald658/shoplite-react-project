@@ -16,11 +16,11 @@
   font-weight: 100;
 }
 
-nav {
+.links {
   gap: 2.5rem;
 }
 
-nav a {
+.links a {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 1rem;
