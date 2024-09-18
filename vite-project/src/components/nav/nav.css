@@ -1,0 +1,32 @@
+:root {
+  --primary-font: "Outfit", sans-serif;
+  --accent: #ff6543;
+  --text-color: #272727;
+  --border-color: #e3e3e3;
+}
+
+.logo {
+  font-family: var(--primary-font);
+  color: #272727;
+  font-size: 1.938rem;
+  font-weight: 500;
+}
+
+.logo span {
+  font-weight: 100;
+}
+
+nav {
+  gap: 2.5rem;
+}
+
+nav a {
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.icon-links {
+  gap: 1.25rem;
+}
